@@ -1,0 +1,4 @@
+TempiditySensor	KEYWORD1
+begin		KEYWORD2
+getHumidity	KEYWORD2
+getTemperature	KEYWORD2
