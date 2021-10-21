@@ -1,5 +1,3 @@
-// Requires DHT_sensor_library from adafruit
-// https://github.com/adafruit/DHT-sensor-library
 #include <DHT.h>
 
 #ifndef FB_TEMPIDITY_SENSOR_H
@@ -16,7 +14,6 @@ namespace FB {
       float getTemperature();
 
     private:
-      int _pin;
       DHT * _dht;
   };
 }
